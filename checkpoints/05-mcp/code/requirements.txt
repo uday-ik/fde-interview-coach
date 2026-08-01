@@ -1,0 +1,14 @@
+# --- Core app ---
+fastapi                 # the web framework
+uvicorn[standard]       # the server that runs it
+pydantic                # request/response validation
+openai                  # scoring the answers (optional at runtime - see README)
+
+# --- Tests ---
+pytest
+httpx                   # required by FastAPI's TestClient
+
+# --- Used later in the workshop ---
+ruff                    # Module 4 (hooks): linting/formatting
+mypy                    # Module 4 (hooks): type checking
+fastmcp                 # Module 5 (MCP): the interview-guides server

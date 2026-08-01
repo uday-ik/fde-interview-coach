@@ -1,0 +1,21 @@
+{
+  "_comment": "Module 4 (Hooks) - deterministic guardrails that ALWAYS run. Committed to the repo so the whole team gets them automatically.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Read",
+        "hooks": [
+          { "type": "command", "command": "python .claude/hooks/block_env.py" }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|MultiEdit|Write",
+        "hooks": [
+          { "type": "command", "command": "python .claude/hooks/checks.py" }
+        ]
+      }
+    ]
+  }
+}

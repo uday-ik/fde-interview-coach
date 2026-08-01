@@ -1,0 +1,16 @@
+# Learner's workbench and virtual envs — never commit these
+my-coach/
+.venv/
+__pycache__/
+.env
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.deepeval*
+
+# Learner-facing content lives in the demo guide, not the repo (kept local only)
+checkpoints/*/index.md
+checkpoints/README.md
+checkpoints/*/code/README.md
