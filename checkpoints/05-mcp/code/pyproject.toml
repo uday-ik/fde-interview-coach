@@ -7,6 +7,11 @@ pythonpath = ["."]
 [tool.ruff]
 line-length = 100
 
+[tool.ruff.lint]
+# Pin the rule set so the hook's result doesn't drift as ruff adds new
+# default rules. E = pycodestyle errors, F = pyflakes. Deterministic.
+select = ["E", "F"]
+
 [tool.mypy]
 python_version = "3.11"
 ignore_missing_imports = true    # anthropic / fastmcp stubs aren't needed for the workshop
