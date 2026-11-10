@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "interview-guides": {
+      "type": "stdio",
+      "command": ".venv/bin/python",
+      "args": ["mcp/server.py"],
+      "env": {}
+    }
+  }
+}

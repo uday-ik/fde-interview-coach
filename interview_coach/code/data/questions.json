@@ -1,0 +1,32 @@
+[
+  {
+    "id": "dec-01",
+    "round": "decomposition",
+    "prompt": "A retail customer wants 'AI to reduce support tickets.' Scope a 4-week plan and name the riskiest assumption."
+  },
+  {
+    "id": "dec-02",
+    "round": "decomposition",
+    "prompt": "A bank asks you to 'add an AI assistant to our app.' Turn this into a scoped, testable first deliverable."
+  },
+  {
+    "id": "beh-01",
+    "round": "behavioral",
+    "prompt": "Tell me about a time you delivered bad news to a customer stakeholder. What happened, and what did you do?"
+  },
+  {
+    "id": "beh-02",
+    "round": "behavioral",
+    "prompt": "Describe a project where you owned a problem end to end, including the parts that weren't your fault."
+  },
+  {
+    "id": "sys-01",
+    "round": "system-design",
+    "prompt": "Design a reliable text-to-SQL assistant over a customer's 200-table warehouse. How do you keep it accurate?"
+  },
+  {
+    "id": "rol-01",
+    "round": "client-roleplay",
+    "prompt": "The customer is frustrated the pilot 'isn't working.' Role-play the next three minutes of the call."
+  }
+]
